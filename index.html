@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head lang="it">
+    <title>
+        Morra Cinese
+    </title>
+    <meta charset="UTF-8">
+    <script src="script/main.js"></script>
+</head>
+<body>
+    <h1>
+        Morra Cinese
+    </h1>
+    <br>
+    <p>Seleziona mossa</p>
+    <br>
+
+    <button onclick="Gioca('carta')">Carta</button>
+    <button onclick="Gioca('sasso')">Sasso</button>
+    <button onclick="Gioca('forbice')">Forbice</button>
+    <br>
+
+    <input type="radio" id="carta" name="mossa" value="carta">
+    <label for="carta">Carta</label>
+    <br>
+    <input type="radio" id="sasso" name="mossa" value="sasso">
+    <label for="sasso">Sasso</label>
+    <br>
+    <input type="radio" id="forbice" name="mossa" value="forbice">
+    <label for="forbice">Forbice</label>
+
+    <br>
+    <div id="output">
+
+    </div>
+    <br>
+    <div class="immagini" style="display: flex">
+        <img id="Gioc" src="" alt="Errore" style="display: none;">
+        <img id="Avv" src="" alt="Errore" style="display: none;">
+    </div>
+</body>
